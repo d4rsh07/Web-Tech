@@ -2,38 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport">
-    <title> Darsh Gaur </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            margin:0;
+            font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(180deg,#070607,#040304);
+            color:#cfc7ea;
+        }
+        header#header{
+            background: linear-gradient(90deg,#7A2BFF,#3a0f4a);
+            color:#fff;
+            padding:28px 20px;
+            box-shadow: 0 6px 28px rgba(122,43,255,0.12);
+        }
+        .profile{
+            text-align:center;
+        }
+        .name{
+            margin-top:12px;
+            font-weight:700;
+            color:#fff;
+            font-size:1.15rem;
+        }
+        .role{ color:#cfc7ea; margin-top:6px; font-size:0.95rem 
+        }
+        .section{
+            padding:12px;
+        }
+        .section h2{color:#fff; font-size:1.02rem }
+        .section p{color:#cfc7ea;}
+
+        footer{
+            background: linear-gradient(#6b16fd,#3e0054);
+            text-align:center;
+            padding:18px 10px;
+            color:#f943f3;
+            font-size:0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Name: Darsh Gaur</h1>
-    <aside style="padding-left: 15px; margin-left: 400px;">
-      <img src="https://media.licdn.com/dms/image/v2/D4D03AQFLb7n4lFeLdw/profile-displayphoto-scale_400_400/B4DZexydFdHAAg-/0/1751034483676?e=1759968000&v=beta&t=hfigCEmKmHGEy9VP7UU-YVBMJSQH9wtUcqBk3Z55Udw" style="float: right; margin-left: 10px; width: 150px; height: auto;position: relative; top: -50px;">
-    </aside>
-    <h2>Alias: Abyss</h2>
-    <h3>Phone number: 8800939507</h3>
-    <h4> Address: L-2 50A LIG DDA Flats, Kalkji, New Delhi, Delhi - 110019</h4>
-    <hr>
-     <p>Hi, My name is Darsh Gaur. I am pursuing BCA in Cyber Security from Bennett University, Noida <br>
-       I have been actively learning hacking from various online resources.<br>
-       During my high school i got the oppertunity to lead the digital squad <br>
-       and i also participated in inter-school Capture the Flag, Hackathons and Cryptic hunts.<br>
-       i have expirience of video editing and basics of front-end web development.
-       
-     </p>
-     <h4>Programming languages I know</h4>
-     <ol>
-      <li>Python</li>
-      <li>SQL</li>
-      <li>HTML</li>
-      <li>CSS</li>
-     </ol>
-     <hr>
-    <footer>
-      <h5> Contact me- darsh710gaur@gmail.com </h5>
-      <a href = "edin.com/in/darsh-gaur-53a9ab361/">My Linkedin</a>
-    </footer>
-    
-</body>
+    <header id="header">
+        <h1>Portfolio</h1>
+    </header>
+    <div>
+        <aside>
+            <div class="profile">
+                <div class="name">Darsh Gaur</div>
+                <div class="role">BCA Cyber Security Student</div>
+            </div>
 
+            <div>
+                <div class="section">
+                    <h2>Contact</h2>
+                    <p>Email: darshgaur710@gmail.com</p>
+                    <p>Phone: 8800939507</p>
+                </div>
+
+                <div class="section">
+                    <h2>Skills</h2>
+                    <p>HTML | CSS | MySQL | Python | Linux</p>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div>
+                <div class="section">
+                    <h2>About</h2>
+                    <p>My name is Darsh Gaur and I am a 1st year BCA Cyber Security student at Bennett University.
+                        I have a passion of Cyber Security and ethical hacking and have participated in various CTFs and Cryptic Hunts. I was the President of my School's digital Squad and as the president I represented my school in various tech competitions and I used to direct and edit videos for many school events as well.</p>
+                </div>
+                <div class="section">
+                    <h2>Social</h2>
+                    <p>
+                        <a href="https://www.linkedin.com/in/darsh-gaur-53a9ab361/">Linkedin</a>
+                        <br>
+                        <a href="https://github.com/d4rsh07">Github</a>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        &copy Darsh Gaur
+    </footer>
+</body>
 </html>
